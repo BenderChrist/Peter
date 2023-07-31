@@ -1,0 +1,263 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#entete
+{
+float:left;
+width: 100%;
+height:80px;
+background: rgb(11,34,57);
+box-shadow: 0px 3px 7px 0px rgb(70,210,149);
+}
+#logo
+{
+float:left;
+text-transform: uppercase;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color:rgb(70,210,149);
+font-weight: 900;
+font-size: 50px;
+margin: 0px 2%;
+letter-spacing: 5px;
+}
+b
+{
+color:rgb(70,210,149);
+font-size: 65px;
+}
+#menu
+{
+float:right;
+margin: 10px 2%;
+}
+#menu a
+{
+text-decoration: none;
+text-transform: uppercase;
+font-size: 30px;
+padding:10px 15px;
+color:white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+
+}
+#menu a:hover
+{
+color:rgb(70,210,149);
+}
+#pied
+{
+float:left;
+width:100%;
+height:150px;
+background: rgb(8,25,43);
+
+
+}
+span
+{
+color:rgb(70,210,149);
+}
+#contactform
+{
+float:left;
+width:50%;
+margin-bottom: 30px;
+margin-top:50px;
+margin-left: 25%;
+padding: 25px;
+/* box-shadow: 0px 3px 7px 0px rgb(70,210,149);
+border-radius: 40px; */
+}
+input
+{
+width:100%;
+float:left;
+border-radius: 5px;
+margin:7px 0px;
+padding:15px 10px;
+border:1px solid rgba(0,0,0,0.2)
+}
+textarea
+{
+width:100%;
+float:left;
+height:200px;
+margin:20px 0px;
+padding:15px 15px;
+border-radius:5px ;
+border:1px solid rgba(0,0,0,0.2)
+
+}
+button
+{
+width:100%;
+float:left;
+margin:7px 0px;
+padding:15px 15px;
+background: rgb(70,210,149);
+color:white;
+border-radius: 10px;
+font-weight: bold;
+font-size: 15px;
+
+}
+#blog-contact
+{
+float:left;
+width:100%;
+height:150px;
+background-image: url(../image/foot.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 0px 1px 3px 0px rgb(70,210,149);
+}
+#blog-contact h1
+{
+color:rgb(70,210,149);
+font-size: 50px;
+text-align:center;
+padding:2.5% 0px;
+}
+ion-icon
+{
+color:white;
+float:left;
+margin-left: 250px;
+font-size: 50px;
+padding: 10px 3%;
+
+}
+ion-icon:hover
+{
+color: rgb(70,210,149);
+}
+#service-conteiner
+{
+width:100%;
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap:30px;
+text-align: center;
+padding: 20px;
+}
+.service-item
+{
+float:left;
+width: 100%;
+padding:50px;
+border: 1px solid rgb(8,25,43);
+border-radius: 20px;
+margin:50px 0px;
+}
+.service-item p
+{
+font-style: italic;
+font-style: normal;
+font-size: 25px;
+font-family: 'Montagu Slab', serif;
+
+}
+#bloc-banner
+{
+float:left;
+width:100%;
+padding:50px 20px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:30px;
+}
+#bloc-banner img
+{
+width:70%;
+border-radius: 20px;
+margin:10px 15%;
+}
+#bloc-banner h2
+{
+font-size:80px;
+font-weight: bold;
+text-transform: uppercase;
+}
+#bloc-banner p
+{
+font-size: 40px;
+font-family:  'Merriweather', serif;
+}
+#home-banner
+{
+float: left;
+width: 100%;
+height:100vh;
+background-image:url(../image/bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+#image-conteiner img
+{
+width: 300px;
+float:right;
+border-radius: 40px;
+margin: -155px 10%;
+} 
+#banner-conteiner
+{
+width:50%;
+margin-top: 100px;
+margin-left: 50px;
+}
+#banner-conteiner h1
+{
+width: 100%;
+float:left;
+color:rgb(8,25,43);
+text-transform: uppercase;
+font-family: 'Merriweather', serif;
+
+font-weight: 3000px;
+font-size: 100px;
+background: top;
+}
+#banner-conteiner p
+{   
+float:left;
+width:100%;
+color:black;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+line-height: 25px;
+}
+#banner-conteiner a
+{
+float:left;
+color:black;
+border:1px solid ;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+padding:10px 30px;
+font-size: 20px;
+text-decoration: none;
+border-radius: 20px;
+margin-top: 15px;
+}
+#banner-conteiner a:hover
+{
+background:black;
+color: rgb(70,210,149);
+}
+h2
+{
+font-size: 45px;
+text-align: center;
+padding: 10px 5px;
+margin-top: 20px;
+font-family: 'Montagu Slab', serif;
+}
